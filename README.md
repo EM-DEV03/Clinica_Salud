@@ -22,24 +22,25 @@ El proyecto destaca por su diseño limpio, uso de tecnologías web actuales y ex
 
 ## Estructura del proyecto
 
+```plaintext
 CLINICAWEB/
 ├── css/
-│ ├── consulta.css
-│ ├── contacto.css
-│ ├── especialistas.css
-│ ├── nosotros.css
-│ └── style.css
+│   ├── consulta.css
+│   ├── contacto.css
+│   ├── especialistas.css
+│   ├── nosotros.css
+│   └── style.css
 ├── img/
 ├── js/
-│ └── script.js
+│   └── script.js
 ├── pages/
-│ ├── consulta.html
-│ ├── contacto.html
-│ ├── especialistas.html
-│ └── nosotros.html
+│   ├── consulta.html
+│   ├── contacto.html
+│   ├── especialistas.html
+│   └── nosotros.html
 ├── index.html
 └── README.md
-
+```
 ---
 
 ## Tecnologías utilizadas
