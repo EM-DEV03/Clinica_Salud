@@ -1,4 +1,4 @@
-# CLINICAWEB
+# Clinica Salud Integral
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
@@ -14,7 +14,7 @@ Proyecto desarrollado como tarea académica para la asignatura de Desarrollo Web
 
 ## Descripción
 
-CLINICAWEB es un sitio web responsivo, moderno y accesible, creado para una clínica médica con el fin de presentar sus servicios, equipo de especialistas, información institucional y facilitar la comunicación con los pacientes mediante formularios de contacto y solicitud de citas.
+Clinica Salud Integral es un sitio web responsivo, moderno y accesible, creado para una clínica médica con el fin de presentar sus servicios, equipo de especialistas, información institucional y facilitar la comunicación con los pacientes mediante formularios de contacto y solicitud de citas.
 
 El proyecto destaca por su diseño limpio, uso de tecnologías web actuales y experiencia de usuario optimizada para todo tipo de dispositivos.
 
