@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Clínica Salud Integral</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="/img/ico.jpg" type="image/x-icon">
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            rel="stylesheet" />
+
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">Clínica Salud
+                        Integral</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto fw-semibold">
+                            <li class="nav-item"><a class="nav-link active"
+                                    href="/index.html">Inicio</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"
+                                    href="/index.html"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Servicios</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="pages/consulta.html">Consulta
+                                            General</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="pages/especialistas.html">Especialistas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="pages/nosotros.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section id="hero" class="d-flex align-items-center">
+            <div class="container text-center text-md-start"
+                data-aos="fade-right" data-aos-duration="1000">
+                <h1>Bienvenido a <br />Clínica Salud Integral</h1>
+                <p class="lead">
+                    Atención médica de calidad, cercana y personalizada para
+                    toda la familia.
+                </p>
+                <a href="pages/contacto.html" class="btn btn-cta">Solicitar
+                    Cita</a>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section id="consulta" class="container" data-aos="fade-up"
+            data-aos-duration="1000">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a href="pages/contacto.html"
+                        style="text-decoration: none;">
+                        <div class="icon-box">
+                            <i class="fas fa-user-md"></i>
+                            <h4>Consulta General</h4>
+                            <p>Atención médica preventiva y diagnóstica para
+                                toda la
+                                familia.</p>
+                        </div></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="pages/especialistas.html"
+                        style="text-decoration: none;">
+                        <div class="icon-box">
+                            <i class="fas fa-stethoscope"></i>
+                            <h4>Especialistas</h4>
+                            <p>Profesionales en diversas áreas para un cuidado
+                                integral.</p>
+                        </div></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="tel:+573136186752" style="text-decoration: none;">
+                        <div class="icon-box">
+                            <i class="fas fa-ambulance"></i>
+                            <h4>Emergencias</h4>
+                            <p>Atención rápida y eficiente para casos de
+                                urgencia.</p>
+                        </div></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nosotros -->
+        <section id="nosotros" class="container" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="100">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <p class="lead text-center mx-auto"
+                style="max-width: 600px; color: #444;">
+                Clínica Salud Integral es un centro médico con más de 20 años de
+                experiencia, comprometido con la salud y
+                bienestar de nuestros pacientes, ofreciendo servicios de alta
+                calidad y tecnología avanzada.
+                <a href="pages/nosotros.html" class="btn btn-link p-0"
+                    style="text-decoration: none; font-size: 1.1rem; font-weight: 700; padding-top: 0.5rem;">Conoce
+                    más</a>
+            </p>
+        </section>
+
+        <!-- Artículos -->
+        <section id="articulos" class="container" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="200">
+            <h2 class="section-title mb-4">Artículos de Salud</h2>
+            <div class="row g-4">
+                <div class="col-md-4 d-flex">
+                    <div class="card shadow-sm flex-fill">
+                        <img src="img/articulos-salud/imagen3.jpg"
+                            class="card-img-top"
+                            alt="Chequeos médicos"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Importancia de los chequeos
+                                médicos</h5>
+                            <p class="card-text flex-grow-1">
+                                Realizar chequeos médicos periódicos ayuda a
+                                prevenir enfermedades y detectar problemas a
+                                tiempo para un tratamiento eficaz.
+                            </p>
+                            <a
+                                href="https://blog.segurosmedi.com/chequeo-medico-anual-es-importante/"
+                                class="btn btn-primary mt-auto align-self-start">Leer
+                                más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex">
+                    <div class="card shadow-sm flex-fill">
+                        <img src="img/articulos-salud/imagen2.jpg"
+                            class="card-img-top"
+                            alt="Prevención respiratoria"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Cómo prevenir enfermedades
+                                respiratorias</h5>
+                            <p class="card-text flex-grow-1">
+                                Evitar cambios bruscos de temperatura,
+                                hidratarse y mantener una buena higiene son
+                                claves para prevenir enfermedades respiratorias.
+                            </p>
+                            <a
+                                href="https://www.argentina.gob.ar/salud/cuidadosinvierno/prevencion-enfermedades-respiratorias"
+                                class="btn btn-primary mt-auto align-self-start">Leer
+                                más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex">
+                    <div class="card shadow-sm flex-fill">
+                        <img src="img/articulos-salud/imagen1.png"
+                            class="card-img-top"
+                            alt="Alimentación saludable"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Alimentación saludable para
+                                el bienestar</h5>
+                            <p class="card-text flex-grow-1">
+                                Una dieta equilibrada es fundamental para
+                                mantener la salud y prevenir enfermedades
+                                crónicas.
+                            </p>
+                            <a
+                                href="https://www.minsalud.gov.co/salud/publica/HS/paginas/que-es-alimentacion-saludable.aspx"
+                                class="btn btn-primary mt-auto align-self-start">Leer
+                                más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería -->
+        <section id="galeria" class="container" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="300">
+            <h2 class="section-title">Galería de Fotos</h2>
+            <div class="row g-3 galeria">
+                <div class="col-md-4">
+                    <img src="img/galeria/imagen1.jpg" alt="Foto 1"
+                        class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/galeria/imagen2.png" alt="Foto 2"
+                        class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/galeria/imagen3.jpg" alt="Foto 3"
+                        class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/galeria/imagen4.jpg" alt="Foto 4"
+                        class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/galeria/imagen5.jpg" alt="Foto 5"
+                        class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/galeria/imagen6.webp" alt="Foto 6"
+                        class="img-fluid rounded shadow" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos -->
+        <section id="multimedia" class="container" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="400">
+            <h2 class="section-title mb-4">Videos Informativos</h2>
+
+            <div class="row g-4 justify-content-center" id="videos-principales">
+                <div class="col-md-6">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/ETXqU79jtbs?si=NJb5NQGBqu5_sa9w"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/sjhxlrVJASQ?si=Wi0OlDRXC7BAXjNg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center mt-3 d-none"
+                id="videos-adicionales">
+                <div class="col-md-6">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/iHw8SPvlPnM?si=xHBng0kGXLKS7XVl"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/IFx8eABfivg?si=nGEcyafVjgUJkfcU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <button id="toggleVideosBtn" class="btn btn-primary">Ver
+                    más</button>
+            </div>
+        </section>
+
+        <!-- Ubicación -->
+        <section id="contacto" class="container" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="500">
+            <h2 class="section-title">Ubicación y Contacto</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <iframe class="rounded shadow"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.796942879951!2d-75.3912159258294!3d4.319893146788037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e387a9dd9d7b8a5%3A0x7fa0fa41e02abf3a!2sCl%C3%ADnica%20Tolima!5e0!3m2!1ses!2sco!4v1660936800950!5m2!1ses!2sco"
+                        width="100%" height="350" style="border:0;"
+                        allowfullscreen loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <form class="formulario" id="citaForm" novalidate>
+                        <h3 class="mb-4">Solicitar Cita</h3>
+                        <div class="mb-3">
+                            <label for="nombre"
+                                class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre"
+                                name="nombre" required
+                                placeholder="Tu nombre completo" />
+                            <div class="invalid-feedback">Por favor ingresa tu
+                                nombre.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email"
+                                name="email" required
+                                placeholder="ejemplo@correo.com" />
+                            <div class="invalid-feedback">Por favor ingresa un
+                                email válido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">Fecha de la
+                                cita:</label>
+                            <input type="date" class="form-control" id="fecha"
+                                name="fecha" required />
+                            <div class="invalid-feedback">Selecciona una fecha
+                                para la cita.</div>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-cta w-100">Enviar</button>
+                        <div id="formMessage" class="mt-3 text-center"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 Clínica Salud Integral - Todos los derechos reservados</p>
+            <p>
+                <a href="#" class="text-white me-3"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i
+                        class="fab fa-instagram"></i></a>
+            </p>
+        </footer>
+
+        <!-- WhatsApp flotante -->
+        <a href="https://wa.me/+573136186752" id="whatsapp-btn" target="_blank"
+            aria-label="Contáctanos por WhatsApp"><i
+                class="fab fa-whatsapp"></i></a>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="js/script.js"></script>
+        <script> AOS.init(); </script>
+
+    </body>
+
+</html>

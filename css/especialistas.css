@@ -1,0 +1,180 @@
+:root {
+    --primary: #00838f;
+    --secondary: #004d40;
+    --accent: #00bfa5;
+    --light: #f9f9f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--light);
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+header nav {
+    background-color: var(--primary);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--accent) !important;
+}
+
+/* Hero */
+.section-title {
+    color: #006064;
+    font-weight: 700;
+    font-size: 2rem;
+    border-left: 5px solid #00838f;
+    padding-left: 12px;
+    margin-bottom: 2rem;
+}
+
+.hero-especialistas {
+    background: url('/img/especialistas/especialistas.avif') center center/cover no-repeat;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 3px solid #007bff;
+}
+
+
+main.container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row.g-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; 
+}
+
+.row.g-4 > div {
+    display: flex;
+    flex: 1 1 30%; 
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto; 
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 3px solid #007bff;
+}
+
+.card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 180px; 
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-text strong {
+    color: #333333;
+    font-weight: 600;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555555;
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Footer */
+footer {
+    background: var(--secondary);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* WhatsApp flotante */
+#whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1050;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#whatsapp-btn:hover {
+    background-color: #1ebe57;
+    text-decoration: none;
+    color: white;
+}

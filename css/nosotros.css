@@ -1,0 +1,184 @@
+:root {
+    --primary: #00838f;
+    --secondary: #004d40;
+    --accent: #00bfa5;
+    --light: #f9f9f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--light);
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+header nav {
+    background-color: var(--primary);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--accent) !important;
+}
+
+/* Hero */
+.section-title {
+    color: #006064;
+    font-weight: 700;
+    font-size: 2rem;
+    border-left: 5px solid #00838f;
+    padding-left: 12px;
+    margin-bottom: 2rem;
+}
+
+.hero-nosotros {
+    background: url('/img/Sobre-Nosotros.jpg') center center/cover no-repeat;
+    height: 450px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 10);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Secciones */
+.info-section {
+    padding: 2rem 1.5rem;
+    border-left: 5px solid #00838f;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #006064;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 0.3rem;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #00838f;
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.info-text {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Valores */
+.valores-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.valor-item {
+    display: flex;
+    align-items: flex-start;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    flex: 1 1 calc(50% - 1rem);
+    min-width: 280px;
+    transition: box-shadow 0.3s ease;
+}
+
+.valor-item:hover {
+    box-shadow: 0 6px 18px rgb(0 131 143 / 0.25);
+}
+
+.valor-item i {
+    margin-right: 1rem;
+    color: #00838f;
+    flex-shrink: 0;
+}
+
+.valor-item h5 {
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    color: #006064;
+}
+
+.valor-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Organigrama */
+#organigrama img {
+    max-width: 100%;
+    height: auto;
+}
+
+#vision,
+#organigrama {
+    background-color: #f1f8f9;
+}
+
+@media (max-width: 768px) {
+    .valores-list {
+        flex-direction: column;
+    }
+
+    .valor-item {
+        flex: 1 1 100%;
+    }
+}
+
+/* Footer */
+footer {
+    background: var(--secondary);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* WhatsApp flotante */
+#whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1050;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#whatsapp-btn:hover {
+    background-color: #1ebe57;
+    text-decoration: none;
+    color: white;
+}

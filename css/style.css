@@ -1,0 +1,185 @@
+:root {
+    --primary: #00838f;
+    --secondary: #004d40;
+    --accent: #00bfa5;
+    --light: #f9f9f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--light);
+    scroll-behavior: smooth;
+}
+
+header nav {
+    background-color: var(--primary);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--accent) !important;
+}
+
+#hero {
+    background: url('/img/logo.png') center / contain no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 131, 143, 0.65);
+    z-index: 0;
+}
+
+#hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    background-color: var(--accent);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 191, 165, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.btn-cta:hover {
+    background-color: #007a6b;
+    text-decoration: none;
+    color: white;
+}
+
+/* Secciones */
+section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 50px;
+}
+
+/* Especialistas */
+.icon-box {
+    background: white;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.icon-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgb(0 0 0 / 0.15);
+}
+
+.icon-box i {
+    font-size: 3.5rem;
+    color: var(--accent);
+    margin-bottom: 20px;
+}
+
+.icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--secondary);
+}
+
+.icon-box p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Galería */
+.galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+/* Formulario */
+.formulario form {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background: var(--secondary);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* WhatsApp flotante */
+#whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1050;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#whatsapp-btn:hover {
+    background-color: #1ebe57;
+    text-decoration: none;
+    color: white;
+}
